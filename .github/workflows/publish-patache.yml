@@ -1,8 +1,12 @@
 name: Publicar datos Patache
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - ".github/workflows/publish-patache.yml"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  collect-and-publish:
+  publish:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     environment:
@@ -23,21 +27,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v4
-
-      - name: Preparar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Recolectar SMTR Patache
-        env:
-          PATACHE_USER: ${{ secrets.PATACHE_USER }}
-          PATACHE_PASSWORD: ${{ secrets.PATACHE_PASSWORD }}
-        run: python3 patache_collector.py --out public/patache_latest.json
-
-      - name: Validar fuente para MMO
-        run: python3 patache_source.py public/patache_latest.json > public/patache_mmo_source.json
+        uses: actions/checkout@v5
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
@@ -47,7 +37,7 @@ jobs:
       - name: Preparar publicacion
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: docs
 
       - name: Publicar JSON
         id: deployment
