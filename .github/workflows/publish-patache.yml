@@ -1,44 +1,16 @@
-name: Publicar datos Patache
+name: Comprobar datos Patache
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "docs/**"
-      - ".github/workflows/publish-patache.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: patache-pages
-  cancel-in-progress: true
 
 jobs:
-  publish:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v5
-
-      - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Preparar publicacion
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-      - name: Publicar JSON
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Validar JSON
+        run: python3 -m json.tool docs/patache_mmo_source.json >/dev/null
