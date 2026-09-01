@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="refresh" content="60">
+  <title>SMTR Patache - Fuente MMO</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; }
+    body { margin: 0; color: #17202a; background: #f5f7f8; }
+    main { max-width: 900px; margin: 0 auto; padding: 28px 20px 48px; }
+    header { border-bottom: 3px solid #147d64; padding-bottom: 16px; }
+    h1 { margin: 0 0 6px; font-size: 1.7rem; letter-spacing: 0; }
+    h2 { margin: 28px 0 10px; font-size: 1.1rem; letter-spacing: 0; }
+    p { line-height: 1.5; }
+    .status { display: inline-block; padding: 5px 8px; border-radius: 4px; font-weight: 700; background: #dff3eb; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { padding: 10px 12px; border: 1px solid #d8dee3; text-align: left; vertical-align: top; }
+    th { width: 28%; background: #eef2f4; }
+    pre { overflow: auto; padding: 14px; border: 1px solid #d8dee3; background: white; font-size: .84rem; line-height: 1.45; }
+    a { color: #075e54; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>SMTR Patache - Fuente para MMO</h1>
+    <p class="status">Calidad al publicar: VERDE</p>
+    <p>Fuente utilizable: <strong>Si</strong>. La antiguedad debe recalcularse contra la hora actual antes de usar cada campo.</p>
+  </header>
+
+  <h2>Lectura local</h2>
+  <table>
+    <tr><th>Observacion general</th><td>2026-09-01T10:21:45-04:00</td></tr>
+    <tr><th>Recolectado</th><td>2026-09-01T14:22:01.392963+00:00</td></tr>
+    <tr><th>Hs</th><td>0.944 m | usar: True | observada: 2026-09-01T10:15:00.005-04:00 | edad al publicar: 7.0 min</td></tr>
+    <tr><th>Nivel local</th><td>895.4 mm | usar: True | observado: 2026-09-01T10:21:45-04:00 | edad al publicar: 0.3 min</td></tr>
+    <tr><th>Viento</th><td>Descartado | No disponible | No disponible | motivo: sensor entrega 0/0/0</td></tr>
+    <tr><th>Instruccion MMO</th><td>Dato Patache 0.3 min: usar Hs Patache 0.944 m; usar nivel Patache 895.4 mm; no usar viento Patache; mantener EMA Iquique/Armada/modelo.</td></tr>
+  </table>
+
+  <h2>Datos estructurados</h2>
+  <p><a href="patache_mmo_source.json">Abrir JSON directo</a></p>
+  <pre id="patache-json">{
+  &quot;station&quot;: &quot;Patache&quot;,
+  &quot;source&quot;: &quot;SMTR Patache&quot;,
+  &quot;collected_at&quot;: &quot;2026-09-01T14:22:01.392963+00:00&quot;,
+  &quot;timestamp&quot;: &quot;2026-09-01T10:21:45-04:00&quot;,
+  &quot;observed_at_by_field&quot;: {
+    &quot;hs&quot;: &quot;2026-09-01T10:15:00.005-04:00&quot;,
+    &quot;sea_level&quot;: &quot;2026-09-01T10:21:45-04:00&quot;,
+    &quot;wind&quot;: &quot;2026-09-01T10:21:45-04:00&quot;
+  },
+  &quot;age_min&quot;: 0.3,
+  &quot;age_min_by_field&quot;: {
+    &quot;hs&quot;: 7.0,
+    &quot;sea_level&quot;: 0.3,
+    &quot;wind&quot;: 0.3
+  },
+  &quot;freshness&quot;: &quot;verde&quot;,
+  &quot;freshness_basis&quot;: &quot;calculada al recolectar; el consumidor debe recalcularla contra la hora actual&quot;,
+  &quot;usable&quot;: true,
+  &quot;use_hs&quot;: true,
+  &quot;use_sea_level&quot;: true,
+  &quot;use_wind&quot;: false,
+  &quot;discard_wind_reason&quot;: &quot;sensor entrega 0/0/0&quot;,
+  &quot;mmo_values&quot;: {
+    &quot;hs_m&quot;: 0.944,
+    &quot;sea_level_mm&quot;: 895.4,
+    &quot;wind_avg_kt&quot;: null,
+    &quot;wind_dir_deg&quot;: null,
+    &quot;temperature_c&quot;: null
+  },
+  &quot;instruction&quot;: &quot;Dato Patache 0.3 min: usar Hs Patache 0.944 m; usar nivel Patache 895.4 mm; no usar viento Patache; mantener EMA Iquique/Armada/modelo.&quot;
+}</pre>
+</main>
+</body>
+</html>
