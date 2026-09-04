@@ -1,18 +1,18 @@
 {
   "station": "Patache",
   "source": "SMTR Patache",
-  "collected_at": "2026-09-04T11:51:38.457935+00:00",
-  "timestamp": "2026-09-04T07:51:20-04:00",
+  "collected_at": "2026-09-04T12:01:43.576357+00:00",
+  "timestamp": "2026-09-04T08:01:40-04:00",
   "observed_at_by_field": {
-    "hs": "2026-09-04T07:45:00.006-04:00",
-    "sea_level": "2026-09-04T07:51:20-04:00",
-    "wind": "2026-09-04T07:51:20-04:00"
+    "hs": "2026-09-04T08:00:00.005-04:00",
+    "sea_level": "2026-09-04T08:01:40-04:00",
+    "wind": "2026-09-04T08:01:40-04:00"
   },
-  "age_min": 0.3,
+  "age_min": 0.1,
   "age_min_by_field": {
-    "hs": 6.6,
-    "sea_level": 0.3,
-    "wind": 0.3
+    "hs": 1.7,
+    "sea_level": 0.1,
+    "wind": 0.1
   },
   "freshness": "verde",
   "freshness_basis": "calculada al recolectar; el consumidor debe recalcularla contra la hora actual",
@@ -22,11 +22,11 @@
   "use_wind": false,
   "discard_wind_reason": "sensor entrega 0/0/0",
   "mmo_values": {
-    "hs_m": 0.752,
-    "sea_level_mm": 511.5,
+    "hs_m": 0.728,
+    "sea_level_mm": 426.7,
     "wind_avg_kt": null,
     "wind_dir_deg": null,
     "temperature_c": null
   },
-  "instruction": "Dato Patache 0.3 min: usar Hs Patache 0.752 m; usar nivel Patache 511.5 mm; no usar viento Patache; mantener EMA Iquique/Armada/modelo."
+  "instruction": "Dato Patache 0.1 min: usar Hs Patache 0.728 m; usar nivel Patache 426.7 mm; no usar viento Patache; mantener EMA Iquique/Armada/modelo."
 }
