@@ -4,7 +4,7 @@
   "source": "PRDW AWFOS",
   "source_type": "forecast",
   "source_url": "https://awfos.prdw.com/IQUI2/",
-  "collected_at": "2026-10-20T19:23:39.422259+00:00",
+  "collected_at": "2026-10-20T19:25:43.986708+00:00",
   "model_cycle_utc": "2026-10-20T00:00:00+00:00",
   "model_cycle_age_h": 19.4,
   "published_date_utc": "20/10/2026",
