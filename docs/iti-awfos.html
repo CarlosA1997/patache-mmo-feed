@@ -24,14 +24,15 @@
 <main>
   <header>
     <h1>ITI - Pronostico local PRDW/AWFOS</h1>
-    <p class="notice">No es lectura en tiempo real del sensor; es pronostico local PRDW/AWFOS.</p>
+    <p class="notice">No es lectura en tiempo real del sensor; es pronostico local PRDW/AWFOS de alcance exclusivo ITI.</p>
+    <p><strong>Alcance:</strong> exclusivamente ITI y entorno del mareografo frente a sitios 3 y 4. No extrapolar a otros terminales.</p>
   </header>
   <h2>Ciclo y vigencia</h2>
   <table>
     <tr><th>Ciclo UTC</th><td>2026-10-20T00:00:00+00:00</td></tr>
-    <tr><th>Edad del ciclo</th><td>19.4 h</td></tr>
+    <tr><th>Edad del ciclo</th><td>19.5 h</td></tr>
     <tr><th>Calidad</th><td>verde</td></tr>
-    <tr><th>Recolectado</th><td>2026-10-20T19:25:43.986708+00:00</td></tr>
+    <tr><th>Recolectado</th><td>2026-10-20T19:30:17.338744+00:00</td></tr>
   </table>
   <h2>Pronostico vigente</h2>
   <table>
@@ -49,9 +50,21 @@
   &quot;source&quot;: &quot;PRDW AWFOS&quot;,
   &quot;source_type&quot;: &quot;forecast&quot;,
   &quot;source_url&quot;: &quot;https://awfos.prdw.com/IQUI2/&quot;,
-  &quot;collected_at&quot;: &quot;2026-10-20T19:25:43.986708+00:00&quot;,
+  &quot;operational_scope&quot;: {
+    &quot;applies_to&quot;: [
+      &quot;ITI&quot;,
+      &quot;Entorno del mareografo frente a sitios 3 y 4&quot;
+    ],
+    &quot;do_not_apply_to&quot;: [
+      &quot;Otros frentes de Iquique&quot;,
+      &quot;Iquique TT.MM.&quot;,
+      &quot;Patache&quot;,
+      &quot;Patillos&quot;
+    ]
+  },
+  &quot;collected_at&quot;: &quot;2026-10-20T19:30:17.338744+00:00&quot;,
   &quot;model_cycle_utc&quot;: &quot;2026-10-20T00:00:00+00:00&quot;,
-  &quot;model_cycle_age_h&quot;: 19.4,
+  &quot;model_cycle_age_h&quot;: 19.5,
   &quot;published_date_utc&quot;: &quot;20/10/2026&quot;,
   &quot;valid_time_zone&quot;: &quot;UTC-3&quot;,
   &quot;freshness&quot;: &quot;verde&quot;,
@@ -61,7 +74,7 @@
   &quot;use_tide_forecast&quot;: true,
   &quot;use_gust_forecast&quot;: false,
   &quot;use_current_forecast&quot;: false,
-  &quot;not_observation&quot;: &quot;No es lectura en tiempo real del sensor; es pronostico local PRDW/AWFOS.&quot;,
+  &quot;not_observation&quot;: &quot;No es lectura en tiempo real del sensor; es pronostico local PRDW/AWFOS de alcance exclusivo ITI.&quot;,
   &quot;current_forecast&quot;: {
     &quot;valid_at&quot;: &quot;2026-10-20T15:00:00-03:00&quot;,
     &quot;wind_dir_compass&quot;: &quot;WSW&quot;,
@@ -425,7 +438,7 @@
       &quot;current_dir_deg&quot;: null
     }
   ],
-  &quot;instruction&quot;: &quot;Pronostico local ITI valido 2026-10-20T15:00:00-03:00: Hm0 0.39 m, Tp 13.3 s, direccion 332 deg y viento WSW 4.0 kt. Tratar como modelo PRDW/AWFOS, no como observacion del sensor.&quot;
+  &quot;instruction&quot;: &quot;Pronostico local ITI valido 2026-10-20T15:00:00-03:00: Hm0 0.39 m, Tp 13.3 s, direccion 332 deg y viento WSW 4.0 kt. Tratar como modelo PRDW/AWFOS solo para ITI, especialmente sitios 3 y 4; no usar como observacion ni extrapolar a otros terminales.&quot;
 }</pre>
 </main>
 </body>
