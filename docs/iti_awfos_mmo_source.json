@@ -16,16 +16,16 @@
       "Patillos"
     ]
   },
-  "collected_at": "2026-10-22T18:12:52.837232+00:00",
+  "collected_at": "2026-10-22T18:23:09.716788+00:00",
   "model_cycle_utc": "2026-10-22T00:00:00+00:00",
-  "model_cycle_age_h": 18.2,
+  "model_cycle_age_h": 18.4,
   "published_date_utc": "22/10/2026",
   "valid_time_zone": "UTC-3",
   "freshness": "verde",
   "usable": true,
   "use_wave_forecast": true,
   "use_wind_forecast": true,
-  "use_tide_forecast": true,
+  "use_tide_forecast": false,
   "use_gust_forecast": false,
   "use_current_forecast": false,
   "not_observation": "No es lectura en tiempo real del sensor; es pronostico local PRDW/AWFOS de alcance exclusivo ITI.",
@@ -38,15 +38,7 @@
     "tp_s": 11.6,
     "hm0_m": 0.48,
     "swell_alert_sw_w": "Sin Novedad",
-    "swell_alert_nw": "Sin Novedad",
-    "tm_s": 10.66,
-    "tide_m_cd": 0.47,
-    "hmax_m": 0.717,
-    "wave_mean_dir_deg": 332.0,
-    "wave_peak_dir_deg": 331.0,
-    "wind_gust_kt": null,
-    "current_speed": null,
-    "current_dir_deg": null
+    "swell_alert_nw": "Sin Novedad"
   },
   "next_forecast": {
     "valid_at": "2026-10-22T18:00:00-03:00",
@@ -57,15 +49,7 @@
     "tp_s": 11.2,
     "hm0_m": 0.46,
     "swell_alert_sw_w": "Sin Novedad",
-    "swell_alert_nw": "Sin Novedad",
-    "tm_s": 10.63,
-    "tide_m_cd": 0.89,
-    "hmax_m": 0.695,
-    "wave_mean_dir_deg": 332.0,
-    "wave_peak_dir_deg": 331.0,
-    "wind_gust_kt": null,
-    "current_speed": null,
-    "current_dir_deg": null
+    "swell_alert_nw": "Sin Novedad"
   },
   "forecast_48h": [
     {
@@ -77,15 +61,7 @@
       "tp_s": 11.6,
       "hm0_m": 0.48,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 10.66,
-      "tide_m_cd": 0.47,
-      "hmax_m": 0.717,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 331.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-22T18:00:00-03:00",
@@ -96,15 +72,7 @@
       "tp_s": 11.2,
       "hm0_m": 0.46,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 10.63,
-      "tide_m_cd": 0.89,
-      "hmax_m": 0.695,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 331.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-22T21:00:00-03:00",
@@ -115,15 +83,7 @@
       "tp_s": 11.5,
       "hm0_m": 0.45,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 9.76,
-      "tide_m_cd": 1.01,
-      "hmax_m": 0.679,
-      "wave_mean_dir_deg": 330.0,
-      "wave_peak_dir_deg": 331.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T00:00:00-03:00",
@@ -134,15 +94,7 @@
       "tp_s": 11.0,
       "hm0_m": 0.43,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 10.44,
-      "tide_m_cd": 0.67,
-      "hmax_m": 0.648,
-      "wave_mean_dir_deg": 331.0,
-      "wave_peak_dir_deg": 330.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T03:00:00-03:00",
@@ -153,15 +105,7 @@
       "tp_s": 10.9,
       "hm0_m": 0.42,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 10.27,
-      "tide_m_cd": 0.62,
-      "hmax_m": 0.626,
-      "wave_mean_dir_deg": 331.0,
-      "wave_peak_dir_deg": 330.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T06:00:00-03:00",
@@ -172,15 +116,7 @@
       "tp_s": 10.6,
       "hm0_m": 0.41,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 10.27,
-      "tide_m_cd": 1.04,
-      "hmax_m": 0.613,
-      "wave_mean_dir_deg": 331.0,
-      "wave_peak_dir_deg": 330.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T09:00:00-03:00",
@@ -191,15 +127,7 @@
       "tp_s": 14.3,
       "hm0_m": 0.4,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 10.21,
-      "tide_m_cd": 1.11,
-      "hmax_m": 0.597,
-      "wave_mean_dir_deg": 331.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T12:00:00-03:00",
@@ -210,15 +138,7 @@
       "tp_s": 13.8,
       "hm0_m": 0.39,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 11.52,
-      "tide_m_cd": 0.62,
-      "hmax_m": 0.581,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T15:00:00-03:00",
@@ -229,15 +149,7 @@
       "tp_s": 13.5,
       "hm0_m": 0.37,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 11.34,
-      "tide_m_cd": 0.41,
-      "hmax_m": 0.559,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T18:00:00-03:00",
@@ -248,15 +160,7 @@
       "tp_s": 13.5,
       "hm0_m": 0.36,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 10.01,
-      "tide_m_cd": 0.87,
-      "hmax_m": 0.537,
-      "wave_mean_dir_deg": 330.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-23T21:00:00-03:00",
@@ -267,15 +171,7 @@
       "tp_s": 13.4,
       "hm0_m": 0.35,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 11.23,
-      "tide_m_cd": 1.13,
-      "hmax_m": 0.529,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-24T00:00:00-03:00",
@@ -286,15 +182,7 @@
       "tp_s": 13.4,
       "hm0_m": 0.35,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 11.22,
-      "tide_m_cd": 0.74,
-      "hmax_m": 0.523,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-24T03:00:00-03:00",
@@ -305,15 +193,7 @@
       "tp_s": 13.4,
       "hm0_m": 0.34,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 11.21,
-      "tide_m_cd": 0.5,
-      "hmax_m": 0.516,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-24T06:00:00-03:00",
@@ -324,15 +204,7 @@
       "tp_s": 13.3,
       "hm0_m": 0.33,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 11.14,
-      "tide_m_cd": 0.9,
-      "hmax_m": 0.501,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-24T09:00:00-03:00",
@@ -343,15 +215,7 @@
       "tp_s": 13.1,
       "hm0_m": 0.32,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 9.27,
-      "tide_m_cd": 1.16,
-      "hmax_m": 0.487,
-      "wave_mean_dir_deg": 330.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-24T12:00:00-03:00",
@@ -362,15 +226,7 @@
       "tp_s": 12.8,
       "hm0_m": 0.32,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 9.04,
-      "tide_m_cd": 0.7,
-      "hmax_m": 0.48,
-      "wave_mean_dir_deg": 330.0,
-      "wave_peak_dir_deg": 331.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     },
     {
       "valid_at": "2026-10-24T15:00:00-03:00",
@@ -381,15 +237,7 @@
       "tp_s": 12.7,
       "hm0_m": 0.31,
       "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 8.75,
-      "tide_m_cd": 0.37,
-      "hmax_m": 0.472,
-      "wave_mean_dir_deg": 330.0,
-      "wave_peak_dir_deg": 331.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
+      "swell_alert_nw": "Sin Novedad"
     }
   ],
   "instruction": "Pronostico local ITI valido 2026-10-22T15:00:00-03:00: Hm0 0.48 m, Tp 11.6 s, direccion 332 deg y viento SW 12.0 kt. Tratar como modelo PRDW/AWFOS solo para ITI, especialmente sitios 3 y 4; no usar como observacion ni extrapolar a otros terminales."
