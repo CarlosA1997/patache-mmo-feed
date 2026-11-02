@@ -16,9 +16,9 @@
       "Patillos"
     ]
   },
-  "collected_at": "2026-11-02T14:57:59.704047+00:00",
+  "collected_at": "2026-11-02T15:08:08.465642+00:00",
   "model_cycle_utc": "2026-11-02T00:00:00+00:00",
-  "model_cycle_age_h": 15.0,
+  "model_cycle_age_h": 15.1,
   "published_date_utc": "02/11/2026",
   "valid_time_zone": "UTC-3",
   "freshness": "verde",
@@ -30,25 +30,6 @@
   "use_current_forecast": false,
   "not_observation": "No es lectura en tiempo real del sensor; es pronostico local PRDW/AWFOS de alcance exclusivo ITI.",
   "current_forecast": {
-    "valid_at": "2026-11-02T09:00:00-03:00",
-    "wind_dir_compass": "SSW",
-    "wind_speed_kt": 5.0,
-    "wind_beaufort": 2,
-    "wave_dir_deg": 332,
-    "tp_s": 14.1,
-    "hm0_m": 0.43,
-    "swell_alert_sw_w": "Sin Novedad",
-    "swell_alert_nw": "Sin Novedad",
-    "tm_s": 11.14,
-    "tide_m_cd": 0.53,
-    "hmax_m": 0.639,
-    "wave_mean_dir_deg": 332.0,
-    "wave_peak_dir_deg": 332.0,
-    "wind_gust_kt": null,
-    "current_speed": null,
-    "current_dir_deg": null
-  },
-  "next_forecast": {
     "valid_at": "2026-11-02T12:00:00-03:00",
     "wind_dir_compass": "SW",
     "wind_speed_kt": 7.0,
@@ -67,26 +48,26 @@
     "current_speed": null,
     "current_dir_deg": null
   },
+  "next_forecast": {
+    "valid_at": "2026-11-02T15:00:00-03:00",
+    "wind_dir_compass": "SW",
+    "wind_speed_kt": 8.0,
+    "wind_beaufort": 3,
+    "wave_dir_deg": 332,
+    "tp_s": 13.6,
+    "hm0_m": 0.4,
+    "swell_alert_sw_w": "Sin Novedad",
+    "swell_alert_nw": "Sin Novedad",
+    "tm_s": 10.96,
+    "tide_m_cd": 0.8,
+    "hmax_m": 0.599,
+    "wave_mean_dir_deg": 332.0,
+    "wave_peak_dir_deg": 332.0,
+    "wind_gust_kt": null,
+    "current_speed": null,
+    "current_dir_deg": null
+  },
   "forecast_48h": [
-    {
-      "valid_at": "2026-11-02T09:00:00-03:00",
-      "wind_dir_compass": "SSW",
-      "wind_speed_kt": 5.0,
-      "wind_beaufort": 2,
-      "wave_dir_deg": 332,
-      "tp_s": 14.1,
-      "hm0_m": 0.43,
-      "swell_alert_sw_w": "Sin Novedad",
-      "swell_alert_nw": "Sin Novedad",
-      "tm_s": 11.14,
-      "tide_m_cd": 0.53,
-      "hmax_m": 0.639,
-      "wave_mean_dir_deg": 332.0,
-      "wave_peak_dir_deg": 332.0,
-      "wind_gust_kt": null,
-      "current_speed": null,
-      "current_dir_deg": null
-    },
     {
       "valid_at": "2026-11-02T12:00:00-03:00",
       "wind_dir_compass": "SW",
@@ -390,7 +371,26 @@
       "wind_gust_kt": null,
       "current_speed": null,
       "current_dir_deg": null
+    },
+    {
+      "valid_at": "2026-11-04T12:00:00-03:00",
+      "wind_dir_compass": "SW",
+      "wind_speed_kt": 10.0,
+      "wind_beaufort": 3,
+      "wave_dir_deg": 332,
+      "tp_s": 14.8,
+      "hm0_m": 0.39,
+      "swell_alert_sw_w": "Sin Novedad",
+      "swell_alert_nw": "Sin Novedad",
+      "tm_s": 11.64,
+      "tide_m_cd": 0.37,
+      "hmax_m": 0.582,
+      "wave_mean_dir_deg": 332.0,
+      "wave_peak_dir_deg": 332.0,
+      "wind_gust_kt": null,
+      "current_speed": null,
+      "current_dir_deg": null
     }
   ],
-  "instruction": "Pronostico local ITI valido 2026-11-02T09:00:00-03:00: Hm0 0.43 m, Tp 14.1 s, direccion 332 deg y viento SSW 5.0 kt. Tratar como modelo PRDW/AWFOS solo para ITI, especialmente sitios 3 y 4; no usar como observacion ni extrapolar a otros terminales."
+  "instruction": "Pronostico local ITI valido 2026-11-02T12:00:00-03:00: Hm0 0.41 m, Tp 13.7 s, direccion 332 deg y viento SW 7.0 kt. Tratar como modelo PRDW/AWFOS solo para ITI, especialmente sitios 3 y 4; no usar como observacion ni extrapolar a otros terminales."
 }
